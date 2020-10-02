@@ -1,11 +1,13 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom'
+import Navbar from './components/layout/Navbar'
+import SignedInLinks from './components/layout/SignedInLinks';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <h1>Darova, bandity!</h1>
+        <Navbar/>
       </div>
     </BrowserRouter>
   );
